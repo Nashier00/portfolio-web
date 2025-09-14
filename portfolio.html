@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Portfolio</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Halo, Saya Muhammad Nasiruddin <br />Web Developer Pemula</h1>
+          <p>
+            Saya sedang memulai perjalanan di dunia web development. Saat ini
+            saya fokus mempelajari HTML, CSS, dan JavaScript serta membangun
+            proyek kecil untuk mengasah keterampilan saya. Dengan semangat
+            belajar, saya ingin terus berkembang menjadi developer yang lebih
+            baik.
+          </p>
+          <a href="#contact" class="btn-primary">Hubungi Saya</a>
+        </div>
+        <img src="images/bani.png" alt="Profil Jedi" class="profile-img" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container about-content">
+        <div class="about-text">
+          <h2>Tentang Saya</h2>
+          <p>
+            Saya adalah seorang Fullstack Web Developer dengan semangat 
+            untuk menciptakan solusi digital yang modern dan bernilai. 
+            Saya menguasai pengembangan front-end menggunakan 
+            <strong>HTML, CSS, dan JavaScript</strong>, serta teknologi 
+            back-end seperti <strong>Node.js</strong> dan database.
+          </p>
+          <p>
+            Dengan kemampuan menghubungkan desain, logika aplikasi, dan 
+            pengelolaan data, saya mampu membangun aplikasi web yang 
+            menyeluruh, mulai dari antarmuka pengguna yang estetik hingga 
+            sistem server yang tangguh.
+          </p>
+          <p>
+            Saya percaya bahwa setiap proyek adalah kesempatan untuk 
+            belajar dan berkembang. Karena itu, saya terus mengasah 
+            keterampilan dengan mengerjakan berbagai proyek mandiri 
+            maupun kolaboratif.
+          </p>
+
+          <div class="skills-list">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="about-image">
+          <img
+            src="https://picsum.photos/seed/jedi-work/400/400.jpg"
+            alt="Work"
+            style="border-radius: 10px; width: 100%; height: auto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Layanan Kami</h2>
+          <p>
+            Kami menyediakan layanan lengkap mulai dari desain hingga
+            pengembangan aplikasi web.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Pengembangan Web</h3>
+            <p>
+              Membuat website modern dan responsive dengan teknologi terbaru.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Aplikasi Mobile</h3>
+            <p>Mengembangkan aplikasi mobile untuk Android dan iOS.</p>
+          </div>
+          <!-- <div class="service-card">
+            <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+            <h3>Desain UI/UX</h3>
+            <p>
+              Menciptakan desain antarmuka yang intuitif dan pengalaman pengguna
+              yang unggul.
+            </p>
+          </div> -->
+          <!-- <div class="service-card">
+            <div class="service-icon"><i class="fas fa-search"></i></div>
+            <h3>Optimasi SEO</h3>
+            <p>Meningkatkan visibilitas situs Anda di mesin pencari.</p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Portofolio Terbaru</h2>
+          <p>
+            Berikut adalah beberapa proyek terbaik yang telah saya kerjakan.
+          </p>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img
+              src="images/Calculator.png"
+              alt="Project 1"
+              class="portfolio-image"
+            />
+            <div class="portfolio-info">
+              <h3>Calculator</h3>              
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="portfolio-links">
+                <a href="Project/calculator/index.html" class="btn-secondary">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="images/Dice_roller.png"
+              alt="Project 2"
+              class="portfolio-image"
+            />
+            <div class="portfolio-info">
+              <h3>Dice Roller</h3>              
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="portfolio-links">
+                <a href="Project/Dice_Roller/index.html" class="btn-secondary">Demo</a>
+                <!-- <a href="#" class="btn-secondary">Source Code</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="images/Temperature_converter.png"
+              alt="Project 3"
+              class="portfolio-image"
+            />
+            <div class="portfolio-info">
+              <h3>Temperature Converter</h3>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="portfolio-links">
+                <a href="Project/temperature-converter/index.html" class="btn-secondary">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hubungi Saya</h2>
+          <p>
+            Jika Anda tertarik bekerja sama atau memiliki pertanyaan, jangan
+            ragu untuk menghubungi saya.
+          </p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Nama Lengkap"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subjek" />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                placeholder="Pesan Anda..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Tentang Saya</h3>
+            <p>
+              Saya adalah seorang developer full-stack dan designer yang
+              berdedikasi untuk menciptakan solusi digital berkualitas tinggi.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Navigasi</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Tentang</a></li>
+              <li><a href="#services">Layanan</a></li>
+              <li><a href="#portfolio">Portofolio</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Kontak</h3>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+              <li><i class="fas fa-phone"></i> +62 812 3456 7890</li>
+              <li><i class="fas fa-envelope"></i> hello@portfolioku.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Portfolio Jedi. Semua Hak Dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+ 
+    <script src="script/portfolio.js"></script>
+  </body>
+</html>
